@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+        "spec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171017-3894-bx0zfr.7erocd6lxr"
+    ]
+  ],
+  "_from": "../d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+  "_id": "clang-format@1.29.0",
+  "_inCache": true,
+  "_location": "/clang-format",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+    "spec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+  "_shasum": "7758eb7713e8ef9b4357619b45353745c76ff8e6",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171017-3894-bx0zfr.7erocd6lxr",
+  "bugs": {
+    "url": "https://github.com/LiquidHelium/atom-clang-format/issues"
+  },
+  "dependencies": {
+    "clang-format": "github:angular/clang-format"
+  },
+  "description": "Format your C/C++/Obj-C/Javascript files with clang-format from inside atom. Requires clang-format to be installed.",
+  "devDependencies": {},
+  "homepage": "https://github.com/LiquidHelium/atom-clang-format#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "clang-format",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# clang-format package\n\nFormat your C/C++/Obj-C/Javascript files with clang-format from inside atom. Requires clang-format to be installed and on your systems path.\n\nMore info on clang-format can be found here: http://clang.llvm.org/docs/ClangFormat.html http://clang.llvm.org/docs/ClangTools.html\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiquidHelium/atom-clang-format.git"
+  },
+  "version": "1.29.0"
+}

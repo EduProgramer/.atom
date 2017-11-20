@@ -1,0 +1,34 @@
+"*":
+  "atom-package-deps":
+    ignored: [
+      "minimap-linter"
+    ]
+  "autocomplete-clang":
+    "std c++": "c++14"
+  autocorrect:
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.cpp"
+    ]
+  "clang-format":
+    formatCOnSave: true
+    formatCPlusPlusOnSave: true
+    formatJavaOnSave: true
+    formatJavascriptOnSave: true
+    formatObjectiveCOnSave: true
+  core: {}
+  "exception-reporting":
+    userId: "e64fc3ae-0d38-440a-a902-448307875f2d"
+  "gcc-make-run": {}
+  "linter-ui-default":
+    showPanel: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0

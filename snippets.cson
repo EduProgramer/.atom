@@ -1,0 +1,116 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+'.source.c, .source.cpp, .source.objc, .source.objcpp':
+  '#ifndef … #define … #endif':
+    'prefix': 'def'
+    'body': '#ifndef ${1:SYMBOL}\n#define $1 ${2:value}\n#endif'
+  '#include <>':
+    'prefix': '#inc'
+    'body': '#include <${1:.h}>'
+  '#include ""':
+    'prefix': '#inc'
+    'body': '#include "${1:.h}"'
+  'main()':
+    'prefix': 'int main'
+    'body': 'int main(int argc, char const *argv[]) try {\n\t${1:/* code */}\n\treturn 0;\n}\ncatch(...)\n{\n\t${2:/* error */}\n}'
+  'For Loop':
+    'prefix': 'for'
+    'body': 'for (size_t ${1:i} = 0; ${1:i} < ${2:count}; ${1:i}${3:++}) {\n\t${4:/* code */}\n}'
+  'Header Include-Guard':
+    'prefix': 'once'
+    'body': '#ifndef ${1:SYMBOL}\n#define $1\n\n${2}\n\n#endif /* end of include guard: $1 */\n'
+  'Shared Pointer':
+    'prefix': 'shared_ptr'
+    'body': 'using ${1:my_type}SharedPtr = std::shared_ptr<${1:my_type}>;'
+  'Alias':
+    'prefix': 'typedef'
+    'body': 'using ${1:MyCustomType} = ${2:int};'
+  'Do While Loop':
+    'prefix': 'do'
+    'body': 'do {\n\t${0:/* code */}\n} while(${1:/* condition */});'
+  'While Loop':
+    'prefix': 'while'
+    'body': 'while (${1:/* condition */}) {\n\t${2:/* code */}\n}'
+  'fprintf':
+    'prefix': 'fprintf'
+    'body': 'fprintf(${1:stderr}, "${2:%s}\\\\n", $3);$4'
+  'If Condition':
+    'prefix': 'if'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n}'
+  'Switch Statement':
+    'prefix': 'switch'
+    'body': 'switch (${1:/* expression */}) {\n\tcase ${2:/* value */}:\n}'
+  'case':
+    'prefix': 'case'
+    'body': 'case ${1:/* value */}:$0'
+  'printf':
+    'prefix': 'printf'
+    'body': 'printf("${1:%s}\\\\n", $2);$3'
+  'scanf':
+    'prefix': 'scanf'
+    'body': 'scanf(\"${1:%s}\\\\n\", $2);$3'
+  'Struct':
+    'prefix': 'struct'
+    'body': 'struct ${1:name_t} {\n\t${2:/* data */}\n};'
+  'void':
+    'prefix': 'void'
+    'body': 'void ${1:name}(${2:/* arguments */}) const noexcept {\n\t${3:/* code */}\n}'
+  'any function':
+    'prefix': 'func'
+    'body': '${1:int} ${2:name}(${3:/* arguments */}) noexcept {\n\t${5:/* code */}\n\treturn ${4:0};\n}'
+'.source.cpp, .source.objcpp':
+  'Enumeration':
+    'prefix': 'enum'
+    'body': 'class enum ${1:name} { $0 };'
+  'Class':
+    'prefix': 'class'
+    'body': 'class ${1:name_t} {\nprivate:\n\t${0:/* data */}\n\npublic:\n\t${1:name_t} (${2:arguments}) noexcept;\n\tvirtual ~${1:name_t} ();\n};'
+  'Namespace':
+    'prefix': 'namespace'
+    'body': 'namespace ${1:name} {\n\t$2\n} /* $1 */'
+  'cout':
+    'prefix': 'cout'
+    'body': 'std::cout << \"${1:/* message */}\" << \'\\\\n\';'
+  'cin':
+    'prefix': 'cin'
+    'body': 'std::cin >> ${1:/* variable */};'
+  'cerr':
+    'prefix': 'cerr'
+    'body': 'std::cerr << \"${1:/* error message */}\" << \'\\\\n\';'
+  'std::map':
+    'prefix': 'map'
+    'body': 'std::map<${1:key}, ${2:value}> map$3;'
+  'std::string':
+    'prefix': 'str'
+    'body': 'std::string'
+  'std::vector':
+    'prefix': 'vector'
+    'body': 'std::vector<${1:int}> v$2;'
+  'template <typename>':
+    'prefix': 'template'
+    'body': 'template <typename ${1:T}>'
+  'output file':
+    'prefix': 'ofstream'
+    'body': 'std::ofstream ${1:afile}("${2:filename.txt}", std::ios::out);\nif (${1:afile}.is_open()) {\n\t${1:afile} << "${3:This is a line.}\\\\n";\n\t${1:afile}.close();\n}'
+  'input file':
+    'prefix': 'ifstream'
+    'body': 'std::ifstream ${1:afile}("${2:filename.txt}", std::ios::in);\nif (${1:afile}.is_open()) {\n\tstd::string line;\n\twhile (std::getline(${1:afile}, line)) {\n\t\tstd::cout << line << \'\\\\n\';\n\t}\n\t${1:afile}.close();\n}\nelse {\n\tstd::cerr << "Unable to open file\\\\n";\n}'
