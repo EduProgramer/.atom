@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+        "raw": "/tmp/d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
-        "spec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+        "rawSpec": "/tmp/d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
+        "spec": "/tmp/d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-1171017-3894-bx0zfr.7erocd6lxr"
+      "/tmp/apm-install-dir-1171016-12451-1jdrh1u.dcbuwstt9"
     ]
   ],
-  "_from": "../d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+  "_from": "../d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
   "_id": "clang-format@1.29.0",
   "_inCache": true,
   "_location": "/clang-format",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+    "raw": "/tmp/d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
-    "spec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+    "rawSpec": "/tmp/d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
+    "spec": "/tmp/d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
+  "_resolved": "file:../d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
   "_shasum": "7758eb7713e8ef9b4357619b45353745c76ff8e6",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-1171017-3894-1107pv9.wq7ntrzfr/package.tgz",
-  "_where": "/tmp/apm-install-dir-1171017-3894-bx0zfr.7erocd6lxr",
+  "_spec": "/tmp/d-1171016-12451-1pcj4ud.5keg4rhpvi/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171016-12451-1jdrh1u.dcbuwstt9",
   "bugs": {
     "url": "https://github.com/LiquidHelium/atom-clang-format/issues"
   },

@@ -1,34 +1,51 @@
 "*":
-  "atom-package-deps":
-    ignored: [
-      "minimap-linter"
-    ]
+  Hydrogen:
+    debug: true
+    kernelNotifications: true
+    outputAreaDefault: true
+    startDir: "dirOfFile"
+  "atom-terminal":
+    setWorkingDirectory: false
+    surpressDirectoryArgument: false
   "autocomplete-clang":
+    ignoreClangErrors: false
+    includeNonDoxygenCommentsAsDocumentation: true
+    includeSystemHeadersDocumentation: true
     "std c++": "c++14"
-  autocorrect:
-    grammars: [
-      "source.asciidoc"
-      "source.gfm"
-      "text.git-commit"
-      "text.plain"
-      "text.plain.null-grammar"
-      "source.cpp"
-    ]
   "clang-format":
     formatCOnSave: true
     formatCPlusPlusOnSave: true
     formatJavaOnSave: true
     formatJavascriptOnSave: true
     formatObjectiveCOnSave: true
-  core: {}
+  core:
+    autoHideMenuBar: true
+    packagesWithKeymapsDisabled: [
+      "atom-terminal"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 15
   "exception-reporting":
-    userId: "e64fc3ae-0d38-440a-a902-448307875f2d"
-  "gcc-make-run": {}
+    userId: "e96d1130-51bf-47f2-833a-150e2769f274"
+  "gcc-make-run":
+    cflags: "-Wall -Werror -Wpedantic -g"
+  "gpp-compiler":
+    linuxTerminal: "GNOME Terminal"
+  "hydrogen-launcher": {}
   "linter-ui-default":
+    panelHeight: 213
     showPanel: true
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-      linter: true
-      linterDecorationsZIndex: 0
+  "relative-numbers":
+    showAbsoluteNumbers: true
+    trueNumberCurrentLine: false
+  "vim-mode":
+    useSmartcaseForSearch: true
+  zentabs:
+    neverCloseDirty: true
+    neverCloseNew: true
+    neverCloseUnsaved: true

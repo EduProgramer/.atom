@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
+        "raw": "/tmp/d-1171017-3691-1oki40k.88flayvi/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
-        "spec": "/tmp/d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
+        "rawSpec": "/tmp/d-1171017-3691-1oki40k.88flayvi/package.tgz",
+        "spec": "/tmp/d-1171017-3691-1oki40k.88flayvi/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-1171017-8801-w7qv8b.ar0tq08uxr"
+      "/tmp/apm-install-dir-1171017-3691-1t3d3mk.tndh0ejyvi"
     ]
   ],
-  "_from": "../d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
+  "_from": "../d-1171017-3691-1oki40k.88flayvi/package.tgz",
   "_id": "minimap-highlight-selected@4.6.1",
   "_inCache": true,
   "_location": "/minimap-highlight-selected",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
+    "raw": "/tmp/d-1171017-3691-1oki40k.88flayvi/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
-    "spec": "/tmp/d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
+    "rawSpec": "/tmp/d-1171017-3691-1oki40k.88flayvi/package.tgz",
+    "spec": "/tmp/d-1171017-3691-1oki40k.88flayvi/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
+  "_resolved": "file:../d-1171017-3691-1oki40k.88flayvi/package.tgz",
   "_shasum": "6a794f616ac22fce6f97e23106b46bbda2d01d1d",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-1171017-8801-1t7mlj3.8jw597ldi/package.tgz",
-  "_where": "/tmp/apm-install-dir-1171017-8801-w7qv8b.ar0tq08uxr",
+  "_spec": "/tmp/d-1171017-3691-1oki40k.88flayvi/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171017-3691-1t3d3mk.tndh0ejyvi",
   "bugs": {
     "url": "https://github.com/atom-minimap/minimap-highlight-selected/issues"
   },
