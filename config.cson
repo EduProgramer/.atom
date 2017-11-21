@@ -7,6 +7,11 @@
   "atom-terminal":
     setWorkingDirectory: false
     surpressDirectoryArgument: false
+  "atom-terminal-panel":
+    enableConsoleStartupInfo: false
+    enableWindowAnimations: false
+    logConsole: true
+    overrideLs: false
   "autocomplete-clang":
     ignoreClangErrors: false
     includeNonDoxygenCommentsAsDocumentation: true
@@ -31,8 +36,16 @@
   "gcc-make-run":
     cflags: "-Wall -Werror -Wpedantic -g"
   "gpp-compiler":
+    cppCompilerOptions: "-Wall -Werror -Wpedantic"
     linuxTerminal: "GNOME Terminal"
   "hydrogen-launcher": {}
+  "linter-clang":
+    clangDefaultCFlags: "-Wall -Werror"
+    clangDefaultCppFlags: "-Wall -Werror -Wpedantic -std=c++14"
+  "linter-gcc":
+    gccDefaultCppFlags: "-c -Wall -Werror -Wpedantic -std=c++14"
+    gccLintOnTheFly: true
+    gccSuppressWarnings: true
   "linter-ui-default":
     panelHeight: 213
     showPanel: true
