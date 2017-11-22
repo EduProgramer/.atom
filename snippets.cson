@@ -86,7 +86,7 @@
     'body': 'class ${1:name_t} {\nprivate:\n\t${0:/* data */}\n\npublic:\n\t${1:name_t} (${2:arguments}) noexcept;\n\tvirtual ~${1:name_t} ();\n};'
   'Namespace':
     'prefix': 'namespace'
-    'body': 'namespace ${1:name} {\n\t$2\n} /* $1 */'
+    'body': 'namespace ${1:name} {\n\t$2\n} // namespace ${1}'
   'iostream library':
       'prefix': '#include <iostream'
       'body': '#include <iostream>'
